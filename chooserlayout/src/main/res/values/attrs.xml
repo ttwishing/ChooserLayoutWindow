@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChooserLayout">
+        <attr name="minAngle" format="float" />
+        <attr name="maxAngle" format="float" />
+        <attr name="maxRadius" format="dimension" />
+        <attr name="undershoot" format="dimension" />
+        <attr name="isCircular" format="boolean" />
+        <attr name="angleIndexOffset" format="integer" />
+        <attr name="chooserItemOffsetY" format="dimension" />
+    </declare-styleable>
+</resources>

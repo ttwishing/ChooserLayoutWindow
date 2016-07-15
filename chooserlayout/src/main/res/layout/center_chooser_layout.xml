@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ttwishing.chooserlayout.ChooserLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:path="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    path:maxAngle="150.0"
+    path:maxRadius="110.0dip"
+    path:minAngle="30.0"
+    path:undershoot="4.0dip">
+
+    <View
+        android:id="@+id/chooser_plus_button"
+        android:layout_width="52.0dip"
+        android:layout_height="52.0dip"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="8.0dip"
+        android:background="@drawable/plus_button_selector" />
+</com.ttwishing.chooserlayout.ChooserLayout>
